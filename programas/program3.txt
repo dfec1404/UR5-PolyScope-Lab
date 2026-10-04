@@ -1,0 +1,40 @@
+ Program
+   Robot Program
+     MoveJ
+       Inicio
+     MoveL
+       Arriba_P1
+       P1
+     Set DO[1]=On
+     Wait: 0.5
+     MoveL
+       Subir_P1
+     Wait: 1.0
+     MoveJ
+       Arriba_L1
+     MoveL
+       L1
+     Set DO[1]=Off
+     Wait: 0.5
+     MoveL
+       Subir_L1
+     MoveJ
+       Sobre_P2
+     MoveJ
+       P2
+     Set DO[1]=On
+     Wait: 0.5
+     MoveJ
+       Subir_P2
+     Wait: 1.0
+     MoveJ
+       Arriba_L2
+     MoveL
+       L2
+     Set DO[1]=Off
+     Wait: 0.5
+     MoveL
+       Subir_L2
+     MoveJ
+       Fin
+     Wait DI[0]=HI

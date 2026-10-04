@@ -1,0 +1,6 @@
+ Program
+   Robot Program
+     Set DO[0]=On
+     Popup: El control sera compartido con un controlador externo (ROS2) 5 segundos despues de presionar Continue.
+     Wait: 5.0
+     Control by 172.17.0.1
